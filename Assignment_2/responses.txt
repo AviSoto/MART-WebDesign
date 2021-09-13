@@ -1,7 +1,7 @@
-How is the world wide web different than the internet?
-Briefly describe how the internet works.
-What is a directory, and what is its relationship to files?
-How will VCS benefit you?
+The world wide web are the pages you can access on the internet where the internet is a network of computers. 
+The internet sends data one place to another through ISPs and routers to get from one place to another.
+A directory is a group of folders. Directories of the path of data such as folders within folders. 
+The VCS will benifit me by showing me all the steps and changes I have made in a project so that I can refer to it later down the line.
 Take a screenshot anytime while working on your homework.
-What is your favorite kind of art?
+My favorite kind of art is painting and more specifically my favorite artist is Frida Kahlo.
 Rename this screenshot using proper naming conventions, and upload it to your assignment-02 directory.
