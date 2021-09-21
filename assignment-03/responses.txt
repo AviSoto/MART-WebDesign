@@ -1,0 +1,8 @@
+1. twitch.tv, target.com, and store.steampowered.com
+
+2. IP Addresses are unique numbers that are assigned to each device on a network. The DNS is like a contact book that that can look up domain names
+and find their associated IP address. Domain names are more practical to be used by end users than IP Addresses.
+
+3. A cookie is a small piece of data that is created when a user visits a website. The websites use this data to track users and their preferences.
+
+4. The essential parts of a url are the http:// which is where the site lives, the .com which is the unique domain of a website, and the /directory/ is the navigation area of where you are going.
