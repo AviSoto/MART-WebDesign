@@ -6,6 +6,6 @@
 
 [Twitch](twitch.tv)
 
-[Responses](./responses.txt)!
+[Responses](./responses.txt)
 
 ![Assigment_03 Screenshot](./images/screenshot.png)
