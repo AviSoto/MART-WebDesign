@@ -1,0 +1,5 @@
+Divs add block-level elements to group other elements together. Classes identify and select value for HTML elements and groups similar types of elements together. Ids identify unique elements and value them as a string. Spans are the inline equivalent of the <div> element and can exist within divs.
+
+Talk about the advantages and disadvantages of using a service like YouTube or Vimeo to host your videos? The advantages of using a service like YouTube or Vimeo to host videos is they they can host high-quality versions, the will handle the encoding in order to play on a variety of browsers. However, unlicensed materials used without permission can reported and removed, and it can become costly to upgrade storage/services.
+
+The challenges I had this week were three different songs that I chose wouldnt allow me to embed the music video due to age restriction so I found a song that would work better. I also struggled with trying to make the lyrics section of my page look alright and I decided adding breaks would be best.
