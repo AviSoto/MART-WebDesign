@@ -1,0 +1,2 @@
+Padding is space between the inner content of the element and the element itself, margin is space between the box/element and other elements and borders add a box around the outside of the element.
+I had a very difficult time trying to center both my images and text underneath. I tried looking through previous modules along with the current and I could not figure out how to make it look decent. I unfortunately was unable to figure it out so I did not overcome this.

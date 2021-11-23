@@ -1,0 +1,62 @@
+img {
+  padding: 10px;
+  display: inline-block;
+  margin: 1em
+
+}
+h1 {
+  font-size: 80px;
+  font-family: 'Cambira', serif;
+  position: relative;
+  text-align: center;
+  opacity: 100%;
+  color: #ffffff;
+  border-style: inset;
+  border-width: 10px;
+  border-color: #E4B35B
+
+}
+h2 {
+  font-size: 50px;
+  font-family: 'Cambira', serif;
+  opacity: 100%;
+  color: #000000;
+  text-align: center;
+}
+
+body {
+background-color: #9A562F;
+}
+
+.Title {
+  background: #D8A47C;
+}
+
+.main-container {
+  width: 95%;
+  background: #f8e084;
+  padding: 10px;
+  margin: auto;
+}
+
+.secondary-container {
+margin: auto;
+display: inline-block;
+width: 50%;
+}
+
+.third-container {
+  display: inline-block;
+}
+
+.image1 {
+float: right;
+}
+
+.image2 {
+  float: right;
+}
+
+.a:hover {
+  color: black;
+}
