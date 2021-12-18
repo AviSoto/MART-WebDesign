@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+  [class*="col-"] {
+      float: left;
+      padding: 15px;
+    }
+
+    @media only screen and (max-width: 768px) {
+      /* For mobile phones: */
+      [class*="col-"] {
+        width: 100%;
+      }
+    }
+
+  .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+/* Nav Bar */
+nav {
+    font-size: 100%;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    margin-right: 400px;
+    background-color: transparent;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 10px 15px;
+    text-align: center;
+    background-color: transparent;
+    padding: 10px 15px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    background-color: #0005;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 10px 0 0 15px;
+    color: white;
+    background-color: #0005;
+    border: 2px solid #fff;
+}
+
+.dropdown-content a {
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-item {
+    display: block;
+    text-align: left;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+.dropdown-item:hover {
+    background-color: #0006;
+}
+
+.site-brand {
+  float: left;
+  display: inline-block;
+  margin: 20px 10px;
+  background-color: transparent;
+  padding: 10px 15px;
+
+}
+.site-brand a {
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  color: white;
+  font-size: 150%;
+  letter-spacing: .05em;
+  font-weight: bold;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  text-align: center;
+  font-size: 250%
+  margin: 50px;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+.main-container {
+  background-image: url("../images/background.jpg");
+  width:100%;
+  height:100vh;
+  background-size: cover;
+  position: fixed;
+}
+
+.main-text {
+  color: white;
+  font-size: 210%;
+  text-align: center;
+  padding-top: 300px;
+}
+
+.contact-button {
+    display: block;
+    text-align: center;
+    width: 200px;
+    margin: 100px auto;
+    padding: 15px;
+    color: white;
+    border: 1.5px solid #fff;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+.contact-button:hover {
+  background-color: #0004;
+}
+
+.secondary-container {
+  background-image: url("../images/top-image.jpg");
+  min-height: 400px;
+  background-size: cover;
+}
+
+.page-content {
+  font-size: 110%;
+  padding-top: 40px;
+  color: black;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.about-text {
+  margin-left: 50px;
+  padding: 20px;
+}
+
+.about-image {
+    content:url("../images/madi-sm.jpg");
+    margin: auto;
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .about-image{
+        content:url("../images/madi-lg.jpg");
+        margin-left: 30px;
+    }
+}
+
+.tattoo-1 {
+    content:url("../images/tattoo-1-sm.jpg");
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .tattoo-1{
+        content:url("../images/tattoo-1-lg.jpg");
+    }
+}
+
+.tattoo-2 {
+    content:url("../images/tattoo-2-sm.jpg");
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .tattoo-2{
+        content:url("../images/tattoo-2-lg.jpg");
+    }
+}
+
+.tattoo-3 {
+    content:url("../images/tattoo-3-sm.jpg");
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .tattoo-3{
+        content:url("../images/tattoo-3-lg.jpg");
+    }
+}
+
+.tattoo-4 {
+    content:url("../images/tattoo-4-sm.jpg");
+}
+
+/* For width 600px and larger: */
+@media only screen and (min-width: 600px) {
+    .tattoo-4{
+        content:url("../images/tattoo-4-lg.jpg");
+    }
+}
+
+/* Contact Form */
+.background {
+  display: flex;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 0 1 700px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.form-item {
+  width: 100%;
+  padding: 10px 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: ;
+  border-bottom: 1px solid #666;
+  transition: border-color 0.2s;
+}
+
+.form-item::placeholder {
+  color: #666;
+}
+
+.form-item:focus {
+  border-bottom-color: #ddd;
+}
+
+.form-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  outline: none;
+  color: ;
+  margin: 15px 15px 0px 0px;
+  border-bottom: 1px solid #666;
+  transition: 0.5s;
+}
+
+.form-btn:hover {
+  border-bottom: #ddd;
+}
